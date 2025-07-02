@@ -13,5 +13,5 @@ INSERT INTO pets (id, name, description, age, breed, color, cuteness_rating, ima
 
 -- Пользователи
 INSERT INTO users (id, first_name, last_name, username, email, hashed_password, is_active, is_admin, is_supplier, is_customer) VALUES
-  (1, 'Алексей', 'Иванов', 'alex', 'alex@example.com', 'hashed_password_admin', TRUE, TRUE, FALSE, FALSE),
-  (2, 'Марина', 'Петрова', 'marina', 'marina@example.com', 'hashed_password_supplier', TRUE, FALSE, TRUE, FALSE);
+  (1, 'Алексей', 'Иванов', 'alex', 'alex@example.com', '$2b$12$LjkPxMCb5FPsPIzq63ZYKu6seDNzTH1QZOWsccVhlvodnw3JK2zGq', TRUE, TRUE, FALSE, FALSE),
+  (2, 'Марина', 'Петрова', 'marina', 'marina@example.com', '$2b$12$4i7NdUfjldZwg.27kPqUcOrGhgZoDGAGgmn8oJyrkhqt3jKRdPmjm', TRUE, FALSE, TRUE, FALSE);
